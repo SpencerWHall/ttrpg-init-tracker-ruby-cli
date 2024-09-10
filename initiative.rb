@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-require 'io/console'
 require 'colorize'
 class CombatActor
   @@actor_types = [:enemy,:pc,:neutral,:ally]
