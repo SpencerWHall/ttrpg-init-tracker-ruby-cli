@@ -41,7 +41,7 @@ This will produce a basic display with two entries:
 
 #### Specific Options(Must be specified at the beginning of the argument list):
 
-* `-i [VAL]`,  `--init [VAL]` --  The first round will begin at the initiative value specified
+* `-i [VAL]`,  `--init [VAL]` --  The first round will begin at the integer value specified. This means entry highlighted by the cursor will be the first combatant at or below the specified value.
 * `-r` `--reroll`  --  Initiative will be re-rolled for all combatants at the end of each round using a 20-sided dice.
 
 #### Common Options:
@@ -51,12 +51,12 @@ This will produce a basic display with two entries:
 
 Input the following keys during the operation of the program to produce the following effects:
 
-  * `x` -- Remove the current combatant from the tracker
+  * `x` -- Remove the current combatant from the tracker.
   
-  * `i[combatant_attributes]`  -- Add the specified combatant to the tracker according to the 'Combatant Attributes' format specified above
+  * `i[combatant_attributes]`  -- Add the specified combatant to the tracker according to the 'Combatant Attributes' format specified above.
   
-  * `q ` -- Terminate the tracker
+  * `q ` -- Terminate the tracker.
   
-  * `h`  --  Display a help message
+  * `h`  --  Display a help message.
   
-  * `<any other key>` --  Advance combat by one turn, descending one row in the tracker or wrapping around to the top.
+  * `<any other key>` --  Advance combat by one turn, descending one row in the tracker or wrapping around to the top if at the bottom.
