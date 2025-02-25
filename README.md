@@ -25,7 +25,7 @@ This will produce a basic display with two entries:
 
   ![Screen Shot 2025-02-24 at 5 45 04 PM](https://github.com/user-attachments/assets/0d8591bf-01bc-49f7-b7f9-a449d7ae0809)
   
-  Due to the specified `-i` value, this initiative round is starting at the first entry at or below initiative value 15. Since `-r` is flagged, once the bottom of the list is reached then each combatant will have its initiative value generated anew using a 20-sided dice roll added to the offset value specified for the combatant. Additionally, the ranger will have its initiative value generated at advantage (Please refer to the [SRD 5th Edition](https://www.5esrd.com/using-ability-scores/#:~:text=Advantage) document for an explanation of what this means). Each combatant is displayed in a different color specific to its specified relation with the other combatants.
+  Due to the specified `-i` value, this initiative round is starting at the first entry at or below initiative value 15. Since `-r` is flagged, once the bottom of the list is reached then each combatant will have its initiative value generated anew using a 20-sided dice roll added to the offset value specified for the combatant. Additionally, the ranger will have its initiative value generated at advantage (Please refer to the [SRD 5th Edition](https://www.5esrd.com/using-ability-scores/#:~:text=Advantage) document for an explanation of what this means). Each combatant is displayed in a different color specific to its specified relation with the other combatants. The ranger has been flagged as a player with the `-p` flag, so an indicator now displays which player combatant is next in the turn order.
 
 #### Combatant Attributes(Order of attributes matters): 
 
