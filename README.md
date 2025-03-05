@@ -1,5 +1,5 @@
 # Overview
-This is a Ruby script that takes in a list of associated string and numeral pairs and displays them in descending order with a cursor that iterates through them one by one until it reaches the bottom and wraps around again. The intended use case is for tracking turn orders in tabletop RPG combat systems.
+This is a Ruby script that takes in a list of associated string and number pairs and displays them in descending order with a cursor that iterates through them one by one until it reaches the bottom and wraps around again. The intended use case is for tracking turn orders in tabletop RPG combat systems.
 
 # Installation
 Requires [Ruby](https://www.ruby-lang.org/en/downloads/) to be installed on your machine. Download the source code in this repository and run it by either entering `ruby initiative.rb` into your command prompt of choice or by marking the `initiative.rb` file as executable (e.g. `chmod +x`) and entering `initiative.rb`.
